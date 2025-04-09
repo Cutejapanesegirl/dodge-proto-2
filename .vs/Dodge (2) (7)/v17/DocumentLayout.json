@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|c:\\users\\monke\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\dodge (2) (7)\\assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC444973-9DFE-C003-E342-92551DCB017E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gear.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\Gear.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Gear.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\Gear.cs",
+              "RelativeToolTip": "Assets\\script\\Gear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:39:25.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\script\\GameManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T03:25:00.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelUp.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\LevelUp.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\LevelUp.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\LevelUp.cs",
+              "RelativeToolTip": "Assets\\script\\LevelUp.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAzwE8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T03:24:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7)\\Assets\\script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\script\\PlayerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T03:24:36.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

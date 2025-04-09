@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FR\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01 (9)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4C593F-0B59-C093-8E7B-E79FDE32E989}|Assembly-CSharp.csproj|c:\\users\\fr\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\dodge-03-01 (9)\\assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4C593F-0B59-C093-8E7B-E79FDE32E989}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4C593F-0B59-C093-8E7B-E79FDE32E989}|Assembly-CSharp.csproj|c:\\users\\fr\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\dodge-03-01 (9)\\assets\\script\\rotator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4C593F-0B59-C093-8E7B-E79FDE32E989}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\FR\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01 (9)\\Assets\\script\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Rotator.cs",
+              "ToolTip": "C:\\Users\\FR\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01 (9)\\Assets\\script\\Rotator.cs",
+              "RelativeToolTip": "Assets\\script\\Rotator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA2wBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:58:30.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rotator1.cs",
+              "DocumentMoniker": "C:\\Users\\FR\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01 (9)\\Assets\\script\\Rotator1.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Rotator1.cs",
+              "ToolTip": "C:\\Users\\FR\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01 (9)\\Assets\\script\\Rotator1.cs",
+              "RelativeToolTip": "Assets\\script\\Rotator1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA2wC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:57:47.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

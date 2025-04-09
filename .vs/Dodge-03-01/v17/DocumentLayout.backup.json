@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\bulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\bulletspawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletspawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\rotator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488FE932-E514-80BC-FCEF-324770713C2B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoolManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\PoolManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\PoolManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\PoolManager.cs",
+              "RelativeToolTip": "Assets\\script\\PoolManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:42:44.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rotator1.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Rotator1.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Rotator1.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Rotator1.cs",
+              "RelativeToolTip": "Assets\\script\\Rotator1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:45:24.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemeritManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\DemeritManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\DemeritManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\DemeritManager.cs",
+              "RelativeToolTip": "Assets\\script\\DemeritManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:31:56.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gear.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Gear.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Gear.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Gear.cs",
+              "RelativeToolTip": "Assets\\script\\Gear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:47:52.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Bullet.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Bullet.cs",
+              "RelativeToolTip": "Assets\\script\\Bullet.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T04:54:51.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BulletSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\BulletSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\BulletSpawner.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\BulletSpawner.cs",
+              "RelativeToolTip": "Assets\\script\\BulletSpawner.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:45:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LevelUp.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\LevelUp.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\LevelUp.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\LevelUp.cs",
+              "RelativeToolTip": "Assets\\script\\LevelUp.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA0wHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:48:23.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BulletSpawnerManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\BulletSpawnerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\BulletSpawnerManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\BulletSpawnerManager.cs",
+              "RelativeToolTip": "Assets\\script\\BulletSpawnerManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA1wAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T16:16:29.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\script\\GameManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:16:43.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\script\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:13:34.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Item.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Item.cs",
+              "RelativeToolTip": "Assets\\script\\Item.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAywEMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T03:09:14.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\ItemData.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\ItemData.cs",
+              "RelativeToolTip": "Assets\\script\\ItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:44:03.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Rotator.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge-03-01\\Assets\\script\\Rotator.cs",
+              "RelativeToolTip": "Assets\\script\\Rotator.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:57:45.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

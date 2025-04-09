@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|c:\\users\\monke\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\dodge (2) (7) (2) (2) (2)\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|c:\\users\\monke\\documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\dodge (2) (7) (2) (2) (2)\\assets\\script\\scenesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scenesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\assets\\script\\canvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\canvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26974725-15FE-7C3D-BEC3-3C0BBBB1F609}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\SceneSingleton.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\SceneSingleton.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\SceneSingleton.cs",
+              "RelativeToolTip": "Assets\\script\\SceneSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:05:15.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Rotator.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\Rotator.cs",
+              "RelativeToolTip": "Assets\\script\\Rotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:43:54.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CanvasManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\CanvasManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\CanvasManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\CanvasManager.cs",
+              "RelativeToolTip": "Assets\\script\\CanvasManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:38:02.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelUp.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\LevelUp.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\LevelUp.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\LevelUp.cs",
+              "RelativeToolTip": "Assets\\script\\LevelUp.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAEwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:33:24.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\script\\GameManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:32:14.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gear.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\Gear.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Gear.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\\uCE74\uCE74\uC624\uD1A1 \uBC1B\uC740 \uD30C\uC77C\\Dodge (2) (7) (2) (2) (2)\\Assets\\script\\Gear.cs",
+              "RelativeToolTip": "Assets\\script\\Gear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:32:07.823Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
