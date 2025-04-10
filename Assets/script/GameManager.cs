@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public PlayerController player;
     public LevelUp uiLevelUp;
     public GameObject uiResult;
+    public GameObject SubMenu;
     public BulletSpawner bulletSpawner;
     public Rotator rotator;
     public GameObject RetryButton;
@@ -134,6 +135,22 @@ public class GameManager : MonoBehaviour
             uiLevelUp.Show();
             surviveTime = 0f;
         }
+
+        if (Input.GetButtonDown("Cancel"))
+        {
+            if (SubMenu.activeSelf)
+            {
+                SubMenu.SetActive(false);
+                Time.timeScale = 1f;
+            }
+
+            else
+            {
+                SubMenu.SetActive(true);
+                Time.timeScale = 0f;
+            }
+
+        }
     }
 
     public void Stop()
@@ -151,6 +168,27 @@ public class GameManager : MonoBehaviour
         {
             obj.transform.position = new Vector3(0, obj.transform.position.y, 0);
         }
+    }
+
+    public void ResumeTime()
+    {
+        Time.timeScale = 1f;
+    }
+
+    public void GameSave()
+    {
+        PlayerPrefs.SetFloat("currentStage", uiLevelUp.currentStage);
+        PlayerPrefs.SetFloat("currentRound", uiLevelUp.currentRound);
+        // 현재 스테이지 정보
+        // 클리어한 보스
+        // 메리트 레벨
+        // 디메리트 레벨
+        // 플레이어 크기, 속도, 쉴드 유무
+    }
+
+    public void GameLoad()
+    {
+
     }
 
     public void QuitGame()

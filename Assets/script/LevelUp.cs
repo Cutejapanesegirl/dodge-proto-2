@@ -27,7 +27,7 @@ public class LevelUp : MonoBehaviour
     public int ClearStage = 4;
 
     public int[] bossScene = { 1, 2, 3 }; // ∫∏Ω∫ æ¿¿« ∫ÙµÂ ¿Œµ¶Ω∫ ¿˙¿Â
-    private List<int> clearedBosses = new List<int>();
+    public List<int> clearedBosses = new List<int>();
 
     // Start is called before the first frame update
     void Awake()
