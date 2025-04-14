@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -27,34 +25,57 @@ public class Item : MonoBehaviour
         textLevel = texts[0];
         textName = texts[1];
         textDesc = texts[2];
+
         textName.text = data.itemName;
     }
 
     void OnEnable()
     {
+        TryReconnectGear();
+
         Debug.Log($"{name} OnEnable 호출됨. 현재 Level: {level}");
         textLevel.text = $"Lv. {level + 1}";
 
-        switch (data.itemType)
+        if (data.itemType == ItemData.ItemType.Size ||
+            data.itemType == ItemData.ItemType.Shoe ||
+            data.itemType == ItemData.ItemType.Item ||
+            data.itemType == ItemData.ItemType.Speed ||
+            data.itemType == ItemData.ItemType.Spawn)
         {
-            case ItemData.ItemType.Size:
-            case ItemData.ItemType.Shoe:
-            case ItemData.ItemType.Item:
-            case ItemData.ItemType.Speed:
-            case ItemData.ItemType.Spawn:
-                textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100);
+            float percentage = data.damages[Mathf.Min(level, data.damages.Length - 1)] * 100f;
+            textDesc.text = string.Format(data.itemDesc, percentage);
+        }
+    }
+
+    void Start()
+    {
+        TryReconnectGear();
+    }
+
+    void TryReconnectGear()
+    {
+        Gear[] gears = FindObjectsOfType<Gear>();
+        foreach (var g in gears)
+        {
+            if (g.itemId == data.itemId)
+            {
+                gear = g;
+                level = g.level;
                 break;
+            }
         }
     }
 
     public void OnClick()
     {
+        Debug.Log($"[Before] {name} Level: {level}");
+
         switch (data.itemType)
         {
-            case ItemData.ItemType.Size:
             case ItemData.ItemType.Shoe:
+            case ItemData.ItemType.Size:
             case ItemData.ItemType.Item:
-                if (level == 0)
+                if (gear == null)
                 {
                     GameObject newGear = new GameObject();
                     gear = newGear.AddComponent<Gear>();
@@ -64,45 +85,26 @@ public class Item : MonoBehaviour
                         gear.ShieldEffect = Resources.Load<GameObject>("Prefabs/ShieldEffect");
                     }
 
-                    gear.Init(data);
+                    gear.Init(data); // Gear에 itemId, level = 1 설정됨
                 }
                 else
                 {
-                    float nextRate = data.damages[level];
-
+                    float nextRate = data.damages[Mathf.Min(level, data.damages.Length - 1)];
                     gear.originalRate = nextRate;
                     gear.LevelUp(nextRate);
                 }
                 break;
+
             case ItemData.ItemType.Speed:
             case ItemData.ItemType.Spawn:
+                // 향후 Weapon 구현 시 사용 예정
                 break;
-
-                //if (level == 0)
-                //{
-                //    GameObject newWeapon = new GameObject();
-                //    weapon = newWeapon.AddComponent<Weapon>();
-                //    weapon.Init(data);
-                //}
-                //else
-                //{
-                //    float nextDamage = data.damages[level];
-
-                //    int nextCount = 0;
-                //    nextCount += data.counts[level];
-
-                //    weapon.Levelup(nextDamage, nextCount);
-                //}
-                //break;
         }
 
-        Debug.Log($"[Before] {name} Level: {level}");
-
         level++;
-
         Debug.Log($"[After] {name} Level: {level}");
 
-        if (level == data.damages.Length)
+        if (level >= data.damages.Length)
         {
             GetComponent<Button>().interactable = false;
         }

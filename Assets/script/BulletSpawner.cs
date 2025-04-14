@@ -53,7 +53,7 @@ public class BulletSpawner : MonoBehaviour
                 bullet.transform.forward = transform.forward;
                 // transform.forward 방향으로 발사되도록 회전 설정
             }
-                
+
             spawnRate = Random.Range(spawnRateMin, spawnRateMax);
 
         }

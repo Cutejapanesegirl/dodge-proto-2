@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 {
 
     public TMP_Text timeText; // 생존 시간을 표시할
-    public static GameManager instance; 
+    public static GameManager instance;
     public GameObject gameoverText;
     public PoolManager pool;
     public PlayerController player;
@@ -114,6 +114,12 @@ public class GameManager : MonoBehaviour
             PoolManager.instance = null;
         }
 
+        if (GameSaveSystem.instance != null)
+        {
+            Destroy(GameSaveSystem.instance.gameObject);
+            GameSaveSystem.instance = null;
+        }
+
         SceneManager.LoadScene(0);  // 씬 리셋
     }
 
@@ -153,6 +159,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void OnSaveAndRetryButton()
+    {
+        StartCoroutine(SaveAndRetryRoutine());
+    }
+
+    private IEnumerator SaveAndRetryRoutine()
+    {
+        GameSaveSystem.instance.SaveGame(); // 저장 실행
+
+        yield return null; // 한 프레임 대기 (또는 필요시 WaitForSeconds 사용)
+
+        GameRetry(); // 저장이 끝난 다음에 리트라이
+    }
+
     public void Stop()
     {
         isLive = false;
@@ -173,22 +193,6 @@ public class GameManager : MonoBehaviour
     public void ResumeTime()
     {
         Time.timeScale = 1f;
-    }
-
-    public void GameSave()
-    {
-        PlayerPrefs.SetFloat("currentStage", uiLevelUp.currentStage);
-        PlayerPrefs.SetFloat("currentRound", uiLevelUp.currentRound);
-        // 현재 스테이지 정보
-        // 클리어한 보스
-        // 메리트 레벨
-        // 디메리트 레벨
-        // 플레이어 크기, 속도, 쉴드 유무
-    }
-
-    public void GameLoad()
-    {
-
     }
 
     public void QuitGame()

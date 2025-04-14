@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c6e27a2c7695114f8edf1cc4751dd6f, type: 3}
-  m_Name: Item 1
+  m_Name: Item_2
   m_EditorClassIdentifier: 
-  itemType: 3
-  itemId: 1
-  itemName: "\uC804\uD22C\uC7A5\uD654"
-  itemDesc: "\uD50C\uB808\uC774\uC5B4\uC758 \uC774\uB3D9\uC18D\uB3C4\uAC00 {0}% \uC99D\uAC00\uD569\uB2C8\uB2E4."
-  itemIcon: {fileID: 21300000, guid: 69e750ef2b48c1141b24cec6e55ebebd, type: 3}
+  itemType: 4
+  itemId: 2
+  itemName: "\uC274\uB4DC"
+  itemDesc: "10\uCD08\uB9C8\uB2E4 \uC274\uB4DC\uB97C \uBD80\uC5EC\uD558\uACE0 \uB808\uBCA8\uC5C5\uD558\uBA74
+    {0}\uCD08 \uB9CC\uD07C \uCFE8\uD0C0\uC784 \uAC10\uC18C."
+  itemIcon: {fileID: 21300000, guid: 387d8b7223d1c314ea07b98141b3f851, type: 3}
   baseDamage: 0
   baseCount: 0
   damages:
-  - 0.1
-  - 0.2
-  - 0.3
-  - 0.4
-  - 0.5
+  - 0
+  - 2
+  - 1
+  - 1
+  - 1
   counts: 0000000000000000000000000000000000000000
   projectile: {fileID: 0}

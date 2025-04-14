@@ -1,88 +1,98 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DemeritManager : MonoBehaviour
 {
-    public BulletSpawner[] bulletSpawners; //  모든 BulletSpawner 저장
-    Item[] items;
+    public BulletSpawner[] bulletSpawners;
+    private Item[] demeritItems;
 
-    void Awake()
+    private void Awake()
     {
-        bulletSpawners = FindObjectsOfType<BulletSpawner>(); // 모든 BulletSpawner 찾기
+        bulletSpawners = FindObjectsOfType<BulletSpawner>();
+        demeritItems = GetComponentsInChildren<Item>(true);
+    }
 
+    public void ResetSpawnerDefaults()
+    {
         foreach (var spawner in bulletSpawners)
         {
-            spawner.currentBulletIndex = 0; // 총알 프리팹 인덱스 초기화
-            spawner.spawnRateMin = 0.5f;    //  기본 스폰 속도 복원
+            if (spawner == null) continue;
+            spawner.currentBulletIndex = 0;
+            spawner.spawnRateMin = 0.5f;
             spawner.spawnRateMax = 3f;
         }
+    }
 
+    public void ApplyDemeritEffect(ItemData data, int level)
+    {
+        float rate = data.damages[Mathf.Min(level, data.damages.Length - 1)];
+
+        switch (data.itemType)
+        {
+            case ItemData.ItemType.Speed:
+                for (int i = 0; i < level; i++) UpgradeBullet();
+                break;
+            case ItemData.ItemType.Spawn:
+                for (int i = 0; i < level; i++) UpgradeSpawner(rate);
+                break;
+        }
     }
 
     public void UpgradeBullet()
     {
-        foreach (var spawner in bulletSpawners) //  모든 BulletSpawner에 적용
+        foreach (var spawner in bulletSpawners)
         {
-            if (spawner != null && spawner.bulletPrefabs.Length > 0)
-            {
-                int nextBulletIndex = (spawner.currentBulletIndex + 1) % spawner.bulletPrefabs.Length;
-                spawner.currentBulletIndex = nextBulletIndex;
-            }
+            if (spawner == null || spawner.bulletPrefabs.Length == 0) continue;
+            spawner.currentBulletIndex = (spawner.currentBulletIndex + 1) % spawner.bulletPrefabs.Length;
         }
     }
-
 
     public void UpgradeSpawner(float rate)
     {
-        foreach (var spawner in bulletSpawners) //  모든 BulletSpawner에 적용
+        foreach (var spawner in bulletSpawners)
         {
-            if (spawner != null)
-            {
-                spawner.spawnRateMin = Mathf.Max(0.05f, spawner.spawnRateMin - rate);
-                spawner.spawnRateMax = Mathf.Max(0.2f, spawner.spawnRateMax - rate);
-            }
+            if (spawner == null) continue;
+            spawner.spawnRateMin = Mathf.Max(0.05f, spawner.spawnRateMin - rate);
+            spawner.spawnRateMax = Mathf.Max(0.2f, spawner.spawnRateMax - rate);
         }
     }
 
-    public void Next()
+    //저장용 레벨 정보 반환
+    public List<Item> GetSelectedDemerits()
     {
-        items = GetComponentsInChildren<Item>(true);
+        List<Item> selected = new List<Item>();
 
-        Debug.Log("Next() 호출됨! 현재 아이템 개수: " + items.Length);
-        foreach (var item in items)
+        foreach (var item in demeritItems)
         {
-            Debug.Log("아이템 이름: " + item.name);
+            if (item.level > 0)
+                selected.Add(item);
         }
 
-        foreach (Item item in items)
+        return selected;
+    }
+
+    //  DemeritUI에서 3개 랜덤 활성화
+    public void Next()
+    {
+        demeritItems = GetComponentsInChildren<Item>(true);
+
+        foreach (var item in demeritItems)
         {
             item.gameObject.SetActive(false);
         }
 
-        int[] ran = new int[3];
-        while (true)
+        List<Item> available = new List<Item>();
+        foreach (var item in demeritItems)
         {
-            ran[0] = Random.Range(0, items.Length);
-            ran[1] = Random.Range(0, items.Length);
-            ran[2] = Random.Range(0, items.Length);
-
-            if (ran[0] != ran[1] && ran[1] != ran[2] && ran[0] != ran[2])
-                break;
+            if (item.level < item.data.damages.Length)
+                available.Add(item);
         }
 
-        for (int index = 0; index < ran.Length; index++)
+        for (int i = 0; i < 3 && available.Count > 0; i++)
         {
-            Item ranItem = items[ran[index]];
-
-            if (ranItem.level == ranItem.data.damages.Length)
-            {
-                // items[Random.Range(4, 7)].gameObject.SetActive(true);
-            }
-            else
-            {
-                ranItem.gameObject.SetActive(true);
-            }
+            int r = Random.Range(0, available.Count);
+            available[r].gameObject.SetActive(true);
+            available.RemoveAt(r);
         }
     }
 }
