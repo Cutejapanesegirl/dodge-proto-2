@@ -49,7 +49,7 @@ public class Item : MonoBehaviour
 
     void Start()
     {
-        TryReconnectGear();
+        StartCoroutine(DelayedReconnect());
     }
 
     void TryReconnectGear()
@@ -61,9 +61,16 @@ public class Item : MonoBehaviour
             {
                 gear = g;
                 level = g.level;
+                gear.ApplyGear(); // 추가 적용 보장
                 break;
             }
         }
+    }
+
+    IEnumerator DelayedReconnect()
+    {
+        yield return new WaitForSeconds(0.1f); // Gear Init 후
+        TryReconnectGear();
     }
 
     public void OnClick()
@@ -96,8 +103,17 @@ public class Item : MonoBehaviour
                 break;
 
             case ItemData.ItemType.Speed:
+                DemeritManager dm1 = FindObjectOfType<DemeritManager>();
+                if (dm1 != null) dm1.UpgradeBullet();
+                break;
+
             case ItemData.ItemType.Spawn:
-                // 향후 Weapon 구현 시 사용 예정
+                DemeritManager dm2 = FindObjectOfType<DemeritManager>();
+                if (dm2 != null)
+                {
+                    float rate = data.damages[Mathf.Min(level, data.damages.Length - 1)];
+                    dm2.UpgradeSpawner(rate);
+                }
                 break;
         }
 
@@ -107,6 +123,18 @@ public class Item : MonoBehaviour
         if (level >= data.damages.Length)
         {
             GetComponent<Button>().interactable = false;
+        }
+
+        if (level >= data.damages.Length) return; // 최대 레벨 도달 시 중복 방지
+
+    }
+
+    public void LoadDemeritLevel(int loadedLevel)
+    {
+        level = 0;
+        for (int i = 0; i < loadedLevel; i++)
+        {
+            OnClick();
         }
     }
 }

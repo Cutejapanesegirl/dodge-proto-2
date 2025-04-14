@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRigidbody = GetComponent<Rigidbody>();
         gear = GetComponentInChildren<Gear>();
+
     }
 
     void Update()

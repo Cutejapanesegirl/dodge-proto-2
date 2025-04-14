@@ -65,6 +65,9 @@ public class Gear : MonoBehaviour
             hasShield = true;
             Shield();
         }
+
+        Debug.Log($"Gear Init: {data.itemId}, rate = {rate}, level = {level}");
+
     }
 
     public void LevelUp(float rate)
@@ -74,7 +77,7 @@ public class Gear : MonoBehaviour
         ApplyGear();
     }
 
-    void ApplyGear()
+    public void ApplyGear()
     {
         switch (type)
         {

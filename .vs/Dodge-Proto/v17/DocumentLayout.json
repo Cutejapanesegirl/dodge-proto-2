@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\monke\\Documents\\Dodge-Proto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\gamesavesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamesavesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|c:\\users\\monke\\documents\\dodge-proto\\assets\\script\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\demeritmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\monke\\Documents\\Dodge-Proto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,11 +47,7 @@
       "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|c:\\users\\monke\\documents\\dodge-proto\\assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|C:\\Users\\monke\\Documents\\Dodge-Proto\\assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{884A50B4-02E7-4D8F-3712-16C99B20CFBE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\script\\GameData.cs",
               "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\GameData.cs",
               "RelativeToolTip": "Assets\\script\\GameData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T12:02:52.815Z",
               "IsPinned": true,
@@ -98,7 +98,7 @@
               "RelativeDocumentMoniker": "Assets\\script\\GameSaveSystem.cs",
               "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\GameSaveSystem.cs",
               "RelativeToolTip": "Assets\\script\\GameSaveSystem.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowHEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T14:15:07.087Z",
               "IsPinned": true,
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\script\\GameManager.cs",
@@ -115,18 +115,17 @@
               "ViewState": "AgIAAF0AAAAAAAAAAAAuwHYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T12:51:07.003Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Gear.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Gear.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Gear.cs",
               "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Gear.cs",
               "RelativeToolTip": "Assets\\script\\Gear.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAIA1wG0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T05:47:32.522Z",
               "IsPinned": true,
@@ -134,29 +133,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DemeritManager.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\DemeritManager.cs",
               "RelativeDocumentMoniker": "Assets\\script\\DemeritManager.cs",
               "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\DemeritManager.cs",
               "RelativeToolTip": "Assets\\script\\DemeritManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwF4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T15:37:01.821Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\Bullet.cs",
-              "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Bullet.cs",
-              "RelativeToolTip": "Assets\\script\\Bullet.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T14:39:28.19Z",
               "EditorCaption": ""
             },
             {
@@ -169,8 +155,32 @@
               "RelativeToolTip": "Assets\\script\\BulletSpawner.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:04:59.405Z",
+              "WhenOpened": "2025-04-10T15:04:59.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Item.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Item.cs",
+              "RelativeToolTip": "Assets\\script\\Item.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAxwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:53:33.664Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Bullet.cs",
+              "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Bullet.cs",
+              "RelativeToolTip": "Assets\\script\\Bullet.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:39:28.19Z"
             },
             {
               "$type": "Document",
@@ -182,8 +192,7 @@
               "RelativeToolTip": "Assets\\script\\BulletSpawnerManager.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T14:40:28.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T14:40:28.335Z"
             },
             {
               "$type": "Document",
@@ -195,25 +204,11 @@
               "RelativeToolTip": "Assets\\script\\Spawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T14:40:40.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T14:40:40.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\Item.cs",
-              "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\Item.cs",
-              "RelativeToolTip": "Assets\\script\\Item.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAowHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:53:33.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\script\\ItemData.cs",
@@ -221,25 +216,24 @@
               "RelativeToolTip": "Assets\\script\\ItemData.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:43:44.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:43:44.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\script\\PlayerController.cs",
               "ToolTip": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\script\\PlayerController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA4wB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T10:23:48.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LevelUp.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Assets\\script\\LevelUp.cs",
               "RelativeDocumentMoniker": "Assets\\script\\LevelUp.cs",
@@ -247,12 +241,11 @@
               "RelativeToolTip": "Assets\\script\\LevelUp.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:54:21.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:54:21.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BaseInput.cs",
               "DocumentMoniker": "C:\\Users\\monke\\Documents\\Dodge-Proto\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
@@ -260,8 +253,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T06:05:39.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T06:05:39.46Z"
             },
             {
               "$type": "Document",

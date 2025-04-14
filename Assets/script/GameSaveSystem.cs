@@ -14,6 +14,8 @@ public class GameSaveSystem : MonoBehaviour
     public PlayerController player;
     public DemeritManager demeritManager;
     private BulletSpawner[] bulletSpawners;
+    public bool LoadingInProgress = false;
+
 
     void Awake()
     {
@@ -88,6 +90,8 @@ public class GameSaveSystem : MonoBehaviour
 
     public void LoadGame()
     {
+        LoadingInProgress = true;
+
         if (!File.Exists(filePath))
         {
             Debug.LogWarning("저장된 파일이 없습니다.");
@@ -150,11 +154,13 @@ public class GameSaveSystem : MonoBehaviour
                 continue;
             }
 
-            item.level = data.level;
-            demeritManager.ApplyDemeritEffect(item.data, item.level);
+            item.LoadDemeritLevel(data.level); // 중복 방지된 레벨 적용 방식으로 수정
         }
 
         Debug.Log("게임 불러오기 완료");
+
+        LoadingInProgress = false;
+
     }
 
     private Item FindDemeritItemById(int id)
