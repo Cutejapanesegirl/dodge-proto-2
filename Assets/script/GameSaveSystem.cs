@@ -50,7 +50,6 @@ public class GameSaveSystem : MonoBehaviour
         gameData.clearedBosses = new List<int>(levelUp.clearedBosses);
 
         gameData.speed = player.speed;
-        gameData.playerScale = player.transform.localScale;
 
         if (bulletSpawners.Length > 0)
         {
@@ -106,8 +105,6 @@ public class GameSaveSystem : MonoBehaviour
         levelUp.clearedBosses = new List<int>(gameData.clearedBosses);
 
         player.speed = gameData.speed;
-        player.transform.localScale = gameData.playerScale;
-        player.gear = player.GetComponentInChildren<Gear>();
 
         foreach (var spawner in bulletSpawners)
         {
@@ -122,6 +119,7 @@ public class GameSaveSystem : MonoBehaviour
             if (gear != null)
                 Destroy(child.gameObject);
         }
+
 
         foreach (GearSaveData gearSave in gameData.equippedGears)
         {
@@ -145,17 +143,6 @@ public class GameSaveSystem : MonoBehaviour
                 gear.LevelUp(itemData.damages[i]);
         }
 
-        foreach (var data in gameData.selectedDemerits)
-        {
-            Item item = FindDemeritItemById(data.itemId);
-            if (item == null)
-            {
-                Debug.LogWarning($"Demerit itemId {data.itemId} 로드 실패");
-                continue;
-            }
-
-            item.LoadDemeritLevel(data.level); // 중복 방지된 레벨 적용 방식으로 수정
-        }
 
         Debug.Log("게임 불러오기 완료");
 

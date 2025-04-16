@@ -59,7 +59,7 @@ public class LevelUp : MonoBehaviour
             return;
         }
 
-        ActivateRandomItems();
+        Next();
         rect.localScale = Vector3.one;
         GameManager.instance.Stop();
 
@@ -159,27 +159,44 @@ public class LevelUp : MonoBehaviour
         }
     }
 
-    void ActivateRandomItems()
+    void Next()
     {
         items = GetComponentsInChildren<Item>(true);
+
+        Debug.Log("Next() 호출됨! 현재 아이템 개수: " + items.Length);
         foreach (var item in items)
+        {
+            Debug.Log("아이템 이름: " + item.name);
+        }
+
+        foreach (Item item in items)
         {
             item.gameObject.SetActive(false);
         }
 
-        List<Item> selectable = items.Where(i => i.level < i.data.damages.Length).ToList();
-        List<Item> chosen = new List<Item>();
-
-        while (chosen.Count < 3 && selectable.Count > 0)
+        int[] ran = new int[3];
+        while (true)
         {
-            int r = Random.Range(0, selectable.Count);
-            chosen.Add(selectable[r]);
-            selectable.RemoveAt(r);
+            ran[0] = Random.Range(0, items.Length);
+            ran[1] = Random.Range(0, items.Length);
+            ran[2] = Random.Range(0, items.Length);
+
+            if (ran[0] != ran[1] && ran[1] != ran[2] && ran[0] != ran[2])
+                break;
         }
 
-        foreach (var item in chosen)
+        for (int index = 0; index < ran.Length; index++)
         {
-            item.gameObject.SetActive(true);
+            Item ranItem = items[ran[index]];
+
+            if (ranItem.level == ranItem.data.damages.Length)
+            {
+                // items[Random.Range(4, 7)].gameObject.SetActive(true);
+            }
+            else
+            {
+                ranItem.gameObject.SetActive(true);
+            }
         }
     }
 

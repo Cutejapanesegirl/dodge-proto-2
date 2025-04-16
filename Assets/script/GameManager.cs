@@ -120,6 +120,12 @@ public class GameManager : MonoBehaviour
             GameSaveSystem.instance = null;
         }
 
+        if (Rotator1.instance != null)
+        {
+            Destroy(Rotator1.instance.gameObject);
+            Rotator1.instance = null;
+        }
+
         SceneManager.LoadScene(0);  // ¾À ¸®¼Â
     }
 

@@ -31,8 +31,6 @@ public class Item : MonoBehaviour
 
     void OnEnable()
     {
-        TryReconnectGear();
-
         Debug.Log($"{name} OnEnable 호출됨. 현재 Level: {level}");
         textLevel.text = $"Lv. {level + 1}";
 
@@ -47,34 +45,10 @@ public class Item : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        StartCoroutine(DelayedReconnect());
-    }
-
-    void TryReconnectGear()
-    {
-        Gear[] gears = FindObjectsOfType<Gear>();
-        foreach (var g in gears)
-        {
-            if (g.itemId == data.itemId)
-            {
-                gear = g;
-                level = g.level;
-                gear.ApplyGear(); // 추가 적용 보장
-                break;
-            }
-        }
-    }
-
-    IEnumerator DelayedReconnect()
-    {
-        yield return new WaitForSeconds(0.1f); // Gear Init 후
-        TryReconnectGear();
-    }
-
     public void OnClick()
     {
+        if (GameSaveSystem.instance.LoadingInProgress) return;
+
         Debug.Log($"[Before] {name} Level: {level}");
 
         switch (data.itemType)

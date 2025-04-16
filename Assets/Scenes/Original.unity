@@ -2865,6 +2865,7 @@ MonoBehaviour:
   levelUp: {fileID: 359726984}
   player: {fileID: 1490351451}
   demeritManager: {fileID: 1802218219}
+  LoadingInProgress: 0
 --- !u!4 &477941729
 Transform:
   m_ObjectHideFlags: 0
@@ -7019,62 +7020,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366892488}
   m_CullTransparentMesh: 1
---- !u!1 &1369924274
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1369924275}
-  - component: {fileID: 1369924276}
-  m_Layer: 0
-  m_Name: Weapon 0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1369924275
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369924274}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1490351456}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369924276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369924274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1e3b5ea387f2a449a4ac9552107e55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  itemId: 0
-  level: 0
-  rate: 0
-  timer: 0
-  cooltime: 10
-  hasShield: 0
-  ShieldEffect: {fileID: 6515706432663203124, guid: e38541a19765a1c45af2733bc7df1a3b,
-    type: 3}
-  activeShield: {fileID: 0}
-  player: {fileID: 0}
-  originalRate: 0
 --- !u!1 &1416942391
 GameObject:
   m_ObjectHideFlags: 0
@@ -7717,8 +7662,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1369924275}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515435191
