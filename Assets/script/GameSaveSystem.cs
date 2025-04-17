@@ -72,16 +72,6 @@ public class GameSaveSystem : MonoBehaviour
             }
         }
 
-        gameData.selectedDemerits.Clear();
-        foreach (var item in demeritManager.GetSelectedDemerits())
-        {
-            gameData.selectedDemerits.Add(new DemeritSaveData
-            {
-                itemId = item.data.itemId,
-                level = item.level
-            });
-        }
-
         string json = JsonUtility.ToJson(gameData, true);
         File.WriteAllText(filePath, json);
         Debug.Log("게임 저장 완료");

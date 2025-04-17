@@ -1,9 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Gear : MonoBehaviour
 {
+    public static Gear instance;
     public ItemData.ItemType type;
     public int itemId;
     public int level;
@@ -15,6 +17,7 @@ public class Gear : MonoBehaviour
 
     public GameObject ShieldEffect;
     public GameObject activeShield;
+    public List<BulletSpawner> bulletSpawners;
 
     public PlayerController player;
 
@@ -23,6 +26,17 @@ public class Gear : MonoBehaviour
 
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         player = GetComponentInParent<PlayerController>();
     }
 
@@ -96,6 +110,18 @@ public class Gear : MonoBehaviour
                     Debug.Log("쿨타임 감소 적용! 현재 횟수: " + cooltimeReductionCount);
                 }
                 timer = 0f;
+                break;
+            case ItemData.ItemType.Speed:
+                foreach (var spawner in bulletSpawners)
+                    spawner.currentBulletIndex = Mathf.Min(spawner.bulletPrefabs.Length - 1, level);
+                break;
+            case ItemData.ItemType.Spawn:
+                foreach (var spawner in bulletSpawners)
+                {
+                    if (spawner == null) continue;
+                    spawner.spawnRateMin = Mathf.Max(0.05f, spawner.spawnRateMin - rate);
+                    spawner.spawnRateMax = Mathf.Max(0.2f, spawner.spawnRateMax - rate);
+                }
                 break;
         }
     }

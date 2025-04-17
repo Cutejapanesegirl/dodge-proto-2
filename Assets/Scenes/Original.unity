@@ -2211,7 +2211,7 @@ MonoBehaviour:
   stageText: {fileID: 528202731}
   StageUI: {fileID: 904271604}
   GameWin: {fileID: 1751266931}
-  DemeritUI: {fileID: 1629787071}
+  DemeritUIManager: {fileID: 1629787071}
   firstSelectedButton: {fileID: 475392179}
   stageFirstButton: {fileID: 1201142488}
   demeritFirstButton: {fileID: 1312264535}
@@ -2864,7 +2864,7 @@ MonoBehaviour:
     spawnRateMax: 3
   levelUp: {fileID: 359726984}
   player: {fileID: 1490351451}
-  demeritManager: {fileID: 1802218219}
+  demeritManager: {fileID: 0}
   LoadingInProgress: 0
 --- !u!4 &477941729
 Transform:
@@ -6352,6 +6352,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220734281}
   m_CullTransparentMesh: 1
+--- !u!1 &1229888591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229888593}
+  - component: {fileID: 1229888592}
+  m_Layer: 0
+  m_Name: Gear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1229888592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229888591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1e3b5ea387f2a449a4ac9552107e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  itemId: 0
+  level: 0
+  rate: 0
+  timer: 0
+  cooltime: 10
+  hasShield: 0
+  ShieldEffect: {fileID: 0}
+  activeShield: {fileID: 0}
+  bulletSpawners:
+  - {fileID: 925639459}
+  - {fileID: 2013789211}
+  - {fileID: 1458112093}
+  - {fileID: 168031057}
+  player: {fileID: 0}
+  originalRate: 0
+--- !u!4 &1229888593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229888591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 378, y: 222.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1269136373
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,6 +8391,7 @@ GameObject:
   - component: {fileID: 1629787072}
   - component: {fileID: 1629787075}
   - component: {fileID: 1629787074}
+  - component: {fileID: 1629787076}
   m_Layer: 5
   m_Name: DemeritUI
   m_TagString: Untagged
@@ -8396,6 +8457,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629787071}
   m_CullTransparentMesh: 1
+--- !u!114 &1629787076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629787071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e4446add49c404b82a20743ac32825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1644537320
 GameObject:
   m_ObjectHideFlags: 0
@@ -9089,7 +9162,6 @@ GameObject:
   - component: {fileID: 1802218216}
   - component: {fileID: 1802218218}
   - component: {fileID: 1802218217}
-  - component: {fileID: 1802218219}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -9156,23 +9228,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802218215}
   m_CullTransparentMesh: 1
---- !u!114 &1802218219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802218215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a30ef2370421f8448618b964c4b2fb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpawners:
-  - {fileID: 925639459}
-  - {fileID: 2013789211}
-  - {fileID: 1458112093}
-  - {fileID: 168031057}
 --- !u!1 &1830404909
 GameObject:
   m_ObjectHideFlags: 0
@@ -10691,3 +10746,4 @@ SceneRoots:
   - {fileID: 863040773}
   - {fileID: 2077151495}
   - {fileID: 477941729}
+  - {fileID: 1229888593}

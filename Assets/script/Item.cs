@@ -100,16 +100,18 @@ public class Item : MonoBehaviour
                 break;
 
             case ItemData.ItemType.Speed:
-                DemeritManager dm1 = FindObjectOfType<DemeritManager>();
-                if (dm1 != null) dm1.UpgradeBullet();
-                break;
-
             case ItemData.ItemType.Spawn:
-                DemeritManager dm2 = FindObjectOfType<DemeritManager>();
-                if (dm2 != null)
+                if (gear == null)
                 {
-                    float rate = data.damages[Mathf.Min(level, data.damages.Length - 1)];
-                    dm2.UpgradeSpawner(rate);
+                    GameObject newGear = new GameObject();
+                    gear = newGear.AddComponent<Gear>();
+                    gear.Init(data);  // Init에서 itemType을 보고 디메리트 처리
+                }
+                else
+                {
+                    float nextRate = data.damages[Mathf.Min(level, data.damages.Length - 1)];
+                    gear.originalRate = nextRate;
+                    gear.LevelUp(nextRate);
                 }
                 break;
         }

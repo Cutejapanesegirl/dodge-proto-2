@@ -17,7 +17,7 @@ public class LevelUp : MonoBehaviour
     public TMP_Text stageText;
     public GameObject StageUI;
     public GameObject GameWin;
-    public GameObject DemeritUI;
+    public GameObject DemeritUIManager;
     public GameObject firstSelectedButton;
     public GameObject stageFirstButton;
     public GameObject demeritFirstButton;
@@ -27,13 +27,13 @@ public class LevelUp : MonoBehaviour
 
     private RectTransform rect;
     private Item[] items;
-    private DemeritManager demeritManager;
+    private DemeritUIManager demeritUIManager;
 
     void Awake()
     {
         rect = GetComponent<RectTransform>();
         items = GetComponentsInChildren<Item>(true);
-        demeritManager = FindObjectOfType<DemeritManager>();
+        demeritUIManager = FindObjectOfType<DemeritUIManager>();
     }
 
     public void Show()
@@ -119,9 +119,9 @@ public class LevelUp : MonoBehaviour
 
     public void DemeritShow()
     {
-        demeritManager.Next();
+        demeritUIManager.ShowRandomDemerits();
         rect.localScale = Vector3.zero;
-        DemeritUI.transform.localScale = Vector3.one;
+        DemeritUIManager.transform.localScale = Vector3.one;
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(demeritFirstButton);
@@ -129,7 +129,7 @@ public class LevelUp : MonoBehaviour
 
     public void Stage()
     {
-        DemeritUI.transform.localScale = Vector3.zero;
+        DemeritUIManager.transform.localScale = Vector3.zero;
         StageUI.SetActive(true);
 
         EventSystem.current.SetSelectedGameObject(null);
