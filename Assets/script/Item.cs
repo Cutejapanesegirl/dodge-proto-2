@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Linq;
 
 public class Item : MonoBehaviour
 {
@@ -41,34 +42,18 @@ public class Item : MonoBehaviour
         {
             StartCoroutine(DelayedReconnect());
         }
-
         if (gear != null)
         {
-            level = gear.level; // Gear의 레벨로 UI 갱신
+            level = gear.level;
         }
-
-        else if (GameSaveSystem.instance != null && GameSaveSystem.instance.demeritManager != null)
+        else
         {
-            // 디메리트인 경우 저장된 레벨을 불러온다
-            var data = GameSaveSystem.instance.gameData.selectedDemerits.Find(d => d.itemId == this.data.itemId);
-            if (data != null)
-            {
-                level = data.level;
-            }
+            level = GameSaveSystem.instance?.gameData.selectedDemerits
+                       .FirstOrDefault(d => d.itemId == data.itemId)?.level ?? 0;
         }
 
-        Debug.Log($"{name} OnEnable 호출됨. 현재 Level: {level}");
-        textLevel.text = $"Lv. {level + 1}";
+        UpdateUI();
 
-        if (data.itemType == ItemData.ItemType.Size ||
-            data.itemType == ItemData.ItemType.Shoe ||
-            data.itemType == ItemData.ItemType.Item ||
-            data.itemType == ItemData.ItemType.Speed ||
-            data.itemType == ItemData.ItemType.Spawn)
-        {
-            float percentage = data.damages[Mathf.Min(level, data.damages.Length - 1)] * 100f;
-            textDesc.text = string.Format(data.itemDesc, percentage);
-        }
     }
 
     IEnumerator DelayedReconnect()
@@ -130,6 +115,7 @@ public class Item : MonoBehaviour
         }
 
         level++;
+
         Debug.Log($"[After] {name} Level: {level}");
 
         if (level >= data.damages.Length)
@@ -166,6 +152,34 @@ public class Item : MonoBehaviour
                 gear = g;
                 break;
             }
+        }
+    }
+
+    void SyncDemeritLevelFromSave()
+    {
+        if (GameSaveSystem.instance != null && GameSaveSystem.instance.demeritManager != null)
+        {
+            var data = GameSaveSystem.instance.gameData.selectedDemerits.Find(d => d.itemId == this.data.itemId);
+            if (data != null)
+            {
+                level = data.level;
+            }
+        }
+    }
+
+    void UpdateUI()
+    {
+        Debug.Log($"{name} OnEnable 호출됨. 현재 Level: {level}");
+        textLevel.text = $"Lv. {level + 1}";
+
+        if (data.itemType == ItemData.ItemType.Size ||
+            data.itemType == ItemData.ItemType.Shoe ||
+            data.itemType == ItemData.ItemType.Item ||
+            data.itemType == ItemData.ItemType.Speed ||
+            data.itemType == ItemData.ItemType.Spawn)
+        {
+            float percentage = data.damages[Mathf.Min(level, data.damages.Length - 1)] * 100f;
+            textDesc.text = string.Format(data.itemDesc, percentage);
         }
     }
 }
