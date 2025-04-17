@@ -133,7 +133,6 @@ public class GameSaveSystem : MonoBehaviour
             GameObject newGear = new GameObject();
             Gear gear = newGear.AddComponent<Gear>();
             gear.itemId = gearSave.itemId;
-            gear.level = gearSave.level;
 
             if (itemData.itemType == ItemData.ItemType.Item)
                 gear.ShieldEffect = Resources.Load<GameObject>("Prefabs/ShieldEffect");

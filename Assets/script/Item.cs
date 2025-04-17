@@ -31,6 +31,32 @@ public class Item : MonoBehaviour
 
     void OnEnable()
     {
+        if (data == null)
+        {
+            Debug.LogWarning($"{name}의 data가 null입니다. OnEnable 중단.");
+            return;
+        }
+
+        if (gear == null)
+        {
+            StartCoroutine(DelayedReconnect());
+        }
+
+        if (gear != null)
+        {
+            level = gear.level; // Gear의 레벨로 UI 갱신
+        }
+
+        else if (GameSaveSystem.instance != null && GameSaveSystem.instance.demeritManager != null)
+        {
+            // 디메리트인 경우 저장된 레벨을 불러온다
+            var data = GameSaveSystem.instance.gameData.selectedDemerits.Find(d => d.itemId == this.data.itemId);
+            if (data != null)
+            {
+                level = data.level;
+            }
+        }
+
         Debug.Log($"{name} OnEnable 호출됨. 현재 Level: {level}");
         textLevel.text = $"Lv. {level + 1}";
 
@@ -45,9 +71,21 @@ public class Item : MonoBehaviour
         }
     }
 
+    IEnumerator DelayedReconnect()
+    {
+        // 최대 1초(1f)까지 대기하며 GameManager와 player가 준비될 때까지 기다림
+        float timeout = 1f;
+        while ((GameManager.instance == null || GameManager.instance.player == null) && timeout > 0f)
+        {
+            timeout -= Time.deltaTime;
+            yield return null;
+        }
+
+        TryReconnectGear(); // 이제 안전하게 시도       // 레벨 텍스트 등 업데이트 함수 따로 분리해도 좋음
+    }
+
     public void OnClick()
     {
-        if (GameSaveSystem.instance.LoadingInProgress) return;
 
         Debug.Log($"[Before] {name} Level: {level}");
 
@@ -111,4 +149,24 @@ public class Item : MonoBehaviour
             OnClick();
         }
     }
+
+    void TryReconnectGear()
+    {
+        if (GameManager.instance == null || GameManager.instance.player == null)
+        {
+            Debug.LogWarning("GameManager 또는 Player가 아직 초기화되지 않았습니다. TryReconnectGear 중단.");
+            return;
+        }
+
+        Gear[] gears = GameManager.instance.player.GetComponentsInChildren<Gear>(true);
+        foreach (var g in gears)
+        {
+            if (g.itemId == data.itemId)
+            {
+                gear = g;
+                break;
+            }
+        }
+    }
 }
+
